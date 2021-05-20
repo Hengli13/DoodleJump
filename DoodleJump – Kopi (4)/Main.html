@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>DoodleJump</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+
+<body>
+    <div id="sentreringsDiv">
+        <div id="start">
+            <h3 id="overskriftMeny">Spill verdens kuleste Doodle Jump</h3>
+            <div id="knappDiv"><button id="startKnapp"> Start</button></div>
+
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="innstillinger">
+            <h1>Innstillinger</h1>
+            <hr>
+            <p id="poengDisplay">Poeng: - Highscore: -</p>
+            <p id="penger">Money: -</p>
+            <hr>
+            <p>Velg en kjøpt figur:</p>
+            <select name="figurFarger" id="figurFarger">
+                <option value="Blue">Blue</option>
+            </select>
+            <hr>
+             <p>Velg en kjøpt bakgrunn:</p>
+            <select name="BakgrunnFarger" id="bakgrunnFarger">
+                <option value="Blue">Blue</option>
+            </select>
+            <hr>
+            <p>Velg sensitivitet:</p>
+            <input id="keyRange" type="range" min="1" max="6">
+        </div>
+        <div id="spillBakgrunn">
+        </div>
+        <div id="butikk">
+            <h1>Butikk</h1>
+            <hr>
+            <div>
+                <p id="overskriftFigur">Kjøp nye figurer</p>
+                <div id="storefront"></div>
+                <button id="oppgraderFigur">Oppgrader for: </button>
+                <hr>
+                <p>Kjøp nye bakgrunner</p>
+                <div id="storefrontBakgrunn"></div>
+                <button id="oppgraderBakgrunn">Oppgrader for: </button>
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <div id="wrapper2">
+        <div id="regDiv">
+            <p>Registrering</p>
+            <input id="brukernavn" placeholder="Brukernavn" type="text" title="brukernavn">
+            <br />
+            <input id="passord" placeholder="Passord" type="password" title="Passord">
+            <br />
+            <button id="logIn">Logg inn</button>
+            <br />
+            <button id="signIn">Sign in</button>
+            <button id="logOut">Logg ut</button>
+
+        </div>
+        <div id="leaderboardDiv">
+            <p id="test1">Leaderboard</p>
+            <table id="leaderboard">
+                <tr>
+                    <td>Plassering</td>
+                    <td>Brukernavn</td>
+                    <td>Highscore</td>
+                    <td>minutter spilt</td>
+                </tr>
+
+
+
+
+            </table>
+        </div>
+
+    </div>
+    <div></div>
+    <script src="Registrering.js"></script>
+    <script src="Main.js"></script>
+    <script src="butikk.js"></script>
+    <script src="innstillinger.js"></script>
+    <!--<script src="Doodler.js"></script>-->
+</body></html>

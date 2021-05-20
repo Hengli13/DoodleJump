@@ -1,0 +1,168 @@
+body{
+    background-color: green;
+}
+
+#spillBakgrunn {
+    width: 400px;
+    height: 600px;
+    background-color: gainsboro;
+    position: relative;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.doodler {
+    /*bruker class for å kunne bruke js funksjonen classlist.add se js*/
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    position: absolute;
+    /*må være abselutt for at den skal plasseres over bakgrunnen*/
+}
+
+.plattform {
+    width: 85px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+    /*må være abselutt for at den skal plasseres over bakgrunnen*/
+}
+
+
+
+
+
+#innstillinger, #butikk {
+    width: 400px;
+    height: 600px;
+    background-color: darkgray;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#wrapper2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+
+#storefront{
+    width: 50px;
+    height: 50px;
+}
+
+#storefrontBakgrunn{
+    width: 40px;
+    height: 60px;
+    background-color: green;
+}
+
+
+
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+#figurFarger,#keyRange, #bakgrunnFarger{
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+    align-content: center;
+    background-color: beige;
+    
+}
+
+#start{
+    width: 200px;
+    height: 210px;
+    position: absolute;
+    background-color: antiquewhite;
+    z-index: 10;
+}
+
+
+
+#startKnapp{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    font-size: 24px; 
+}
+
+h3{
+    color: darkblue;
+    font-size: 24px;  
+    text-align: center;
+}
+#knappDiv{
+    text-align: center; 
+}
+
+button, input{
+    font-size: 20px;
+    font-family: sans-serif;
+   width: 80%;
+    height: 30px;
+    margin:  10px;
+    
+    
+
+}
+
+#regDiv{
+    width: 400px;
+    height: 400px;
+    background-color: darkorange;
+    justify-content: center;
+    text-align: center;
+}
+
+#leaderboardDiv{
+    width: 800px;
+    height: 400px;
+    background-color:red;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#leaderboard{
+    width: 95%;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+td{
+    height: 50px;
+    border: 2px solid black;}
+
+
+@keyframes Bevegstartmeny {
+  from {top: 0px;}
+  to {top: 200px;}
+}
